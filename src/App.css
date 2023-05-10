@@ -27,6 +27,9 @@
 .App-link {
   color: #61dafb;
 }
+body {
+  background-image: url('https://i.pinimg.com/564x/4f/59/dc/4f59dce3de2f686b1986df117770c045.jpg');
+}
 
 @keyframes App-logo-spin {
   from {
