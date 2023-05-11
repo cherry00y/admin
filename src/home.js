@@ -115,12 +115,12 @@ export default function Album() {
         })
         .then((response) => response.json())
         .then((data) => {
-            if (data.status === "ok") {
+            if (data.status === "Ok") {
                 console.log("Authen Success");
             }
             else {
                 console.log("Authen failed");
-                // window.location = '/login';
+                window.location = '/login';
             }
         }
         );

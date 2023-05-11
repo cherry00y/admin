@@ -25,12 +25,13 @@ async function postJSON(jsdata) {
         },
         body: JSON.stringify(jsdata),
       });
-  
+      
       const result = await response.json();
       console.log("Success:", result);
       localStorage.setItem('token', result.token)
-      window.location = '/home'
-    } catch (error) {
+      // window.location = '/home'
+    } 
+    catch (error) {
       console.error("Error:", error);
     }
   }
