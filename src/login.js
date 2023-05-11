@@ -29,7 +29,7 @@ async function postJSON(jsdata) {
       const result = await response.json();
       console.log("Success:", result);
       localStorage.setItem('token', result.token)
-      // window.location = '/home'
+      window.location = '/home'
     } 
     catch (error) {
       console.error("Error:", error);

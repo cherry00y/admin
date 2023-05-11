@@ -107,7 +107,7 @@ export default function Album() {
     useEffect(() => { 
         const token = localStorage.getItem('token');
         fetch("https://rich-cyan-wasp.cyclic.app/authen", {
-            method: "POST", // or 'PUT'
+            method: "POST", 
             headers: {
                 "Content-Type": "application/json",
                 "Authorization": 'Bearer ' + token 
