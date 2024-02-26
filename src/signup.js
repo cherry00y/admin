@@ -18,7 +18,7 @@ const theme = createTheme();
 
 async function postJSON(jsdata) {
     try {
-      const response = await fetch("https://rich-cyan-wasp.cyclic.app/register", {
+      const response = await fetch("https://blue-bright-nightingale.cyclic.app/register", {
         method: "POST", // or 'PUT'
         headers: {
           "Content-Type": "application/json",
