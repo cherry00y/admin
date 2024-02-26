@@ -23,7 +23,7 @@ export default function Editdisease() {
         redirect: 'follow'
         };
 
-        fetch("https://rich-cyan-wasp.cyclic.app/getdisease/", requestOptions)
+        fetch("https://blue-bright-nightingale.cyclic.app/getdisease/", requestOptions)
         .then(response => response.json())
         .then(result => {
             if(result.status === 'ok'){

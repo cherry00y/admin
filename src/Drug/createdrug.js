@@ -24,7 +24,7 @@ export default function Createdrug() {
         redirect: 'follow'
         };
 
-        fetch("https://rich-cyan-wasp.cyclic.app/drug", requestOptions)
+        fetch("https://blue-bright-nightingale.cyclic.app/drug", requestOptions)
         .then(response => response.json())
         .then(result => {
             alert(result['massage'])

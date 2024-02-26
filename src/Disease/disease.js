@@ -26,7 +26,7 @@ export default function SimpleContainer() {
       }, [])
 
       const Deleteget = () => {
-        fetch("https://rich-cyan-wasp.cyclic.app/tabledisease")
+        fetch("https://blue-bright-nightingale.cyclic.app/tabledisease")
           .then(res => res.json())
           .then(
             (result) => {

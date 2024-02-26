@@ -106,7 +106,7 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
 export default function Album() {
     useEffect(() => { 
         const token = localStorage.getItem('token');
-        fetch("https://rich-cyan-wasp.cyclic.app/authen", {
+        fetch("https://blue-bright-nightingale.cyclic.app/authen", {
             method: "POST", 
             headers: {
                 "Content-Type": "application/json",

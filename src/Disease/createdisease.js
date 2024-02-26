@@ -25,7 +25,7 @@ export default function Createdisease() {
         redirect: 'follow'
         };
 
-        fetch("https://rich-cyan-wasp.cyclic.app/disease", requestOptions)
+        fetch("https://blue-bright-nightingale.cyclic.app/disease", requestOptions)
         .then(response => response.json())
         .then(result => {
             alert(result['massage'])

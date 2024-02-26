@@ -24,7 +24,7 @@ export default function Editdrug() {
         redirect: 'follow'
         };
 
-        fetch("https://rich-cyan-wasp.cyclic.app/getdrug/", requestOptions)
+        fetch("https://blue-bright-nightingale.cyclic.app/getdrug/", requestOptions)
         .then(response => response.json())
         .then(result => {
              if(result.status === "ok"){
